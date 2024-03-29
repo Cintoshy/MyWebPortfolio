@@ -1,0 +1,27 @@
+      <div class="bg-gray-100 min-h-screen py-12 px-4">
+        <div class="max-w-3xl mx-auto">
+          <h1 class="text-3xl font-bold text-center mb-8">
+            Education Background
+          </h1>
+
+          <!-- List of Education Entries -->
+          <div
+            v-for="(entry, index) in education"
+            :key="index"
+            class="bg-white shadow-md rounded-lg p-6 mb-8"
+          >
+            <h2 class="text-2xl font-semibold">{{ entry.degree }}</h2>
+            <p class="text-lg text-gray-600 mb-2">{{ entry.institution }}</p>
+            <p class="text-gray-600 mb-4">{{ entry.duration }}</p>
+            <ul class="list-disc pl-6">
+              <li
+                v-for="(achievement, idx) in entry.achievements"
+                :key="idx"
+                class="mb-2"
+              >
+                {{ achievement }}
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
