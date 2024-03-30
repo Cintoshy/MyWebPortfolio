@@ -1,38 +1,39 @@
 <template>
-    <section class="overflow-hidden" id="home">
-      <div class="flex flex-col-reverse md:flex-row md:h-screen w-full p-5">
-        <div v-motion-slide-left class="flex justify-center items-center w-full md:w-1/2">
+    <section class="overflow-hidden flex sm:flex-none items-center h-screen md:h-max lg:h-screen" id="home">
+      <div class="flex flex-col-reverse md:flex-row w-full md:h-screen">
+        <div v-motion-slide-left class="flex justify-center items-center w-full lg:w-1/2">
           <div class="flex flex-col">
-            <div class="font-bold uppercase py-0 my-0" >Hello world, I'm</div>
-            <div class="text-3xl md:text-5xl font-extrabold font-sans my-1">Mark Louis Odavar</div>
+            <div class="font-bold uppercase py-0 mt-5 md:my-0" >Hello world, I'm</div>
+            <div class="text-3xl md:text-5xl font-extrabold font-sans my-1 rubik-scribble-regular">Mark Louis Odavar</div>
             <div class="inline-block">
-              <div class="text-1xl font-bold text py-0 my-0">
+              <div class="sm:text-1xl font-bold text py-0 my-0">
                 Aspiring
-                <span class="text-red-500">Web Developer</span>
-                from Camarines Sur Polythecnic Colleges
+                <span class="text-red-500">Web Developer </span>
+                <span class="hidden sm:inline-block">from Camarines Sur Polytechnic Colleges</span>
+                <span class="sm:hidden">from CSPC</span>
               </div>
             </div>
-            <div class="flex flex-row gap-x-5 mt-5">
-                <nuxt-link to="/" class="flex active">
-                  <span class="mr-1">&gt;</span>
+            <div class="flex flex-row gap-x-3 sm:gap-x-5 mt-5">
+                <nuxt-link to="/" class="flex active text-xs">
+                  <span class="text-xs mr-1">&gt;</span>
                   Home
                 </nuxt-link>
-                <nuxt-link to="/haha" class="flex text-decoration-none custom-link">
+                <nuxt-link to="/haha" class="flex text-decoration-none custom-link text-xs">
                   <span class="mr-1">&gt;</span>
                   Education
                 </nuxt-link>
   
-                <a href="#" class="flex text-decoration-none custom-link">
+                <a href="#" class="flex text-decoration-none custom-link text-xs">
                   <span class="mr-1">&gt;</span>
                   Skills  
                 </a>
-                <a href="#" class="flex text-decoration-none custom-link">
+                <a href="#" class="flex text-decoration-none custom-link text-xs">
                   <span class="mr-1">&gt;</span>
                   Projects
                 </a>
             </div>
   
-            <div class="flex flex-row mt-6 gap-x-3">
+            <div class="flex flex-row mt-5 gap-x-3">
               <a href="https://web.facebook.com/marklouis.odavar.7/">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -89,19 +90,27 @@
           </div v-motion-slide-left>
         </div>
   
-        <div v-motion-slide-right class="flex justify-center items-center w-full md:w-1/2">
+        <div v-motion-slide-right class="relative flex justify-center px-8 sm:p-none items-end md:items-center w-full lg:w-1/2">
+          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-10"></span>
+  <!-- <span class="relative inline-flex rounded-full h-16 w-16 bg-sky-500 animate-ping"></span> -->
+
+
           <img
             v-bind:src="logoPath"
             alt="Profile Picture"
-            class="rounded-full hover:scale-105 transition delay-100 duration-300 ease-in-out shadow-lg"
+            class="rounded-full hover:scale-105 transition delay-100 ease-in-out shadow-lg animate-[float_3s_infinite] sm:animate-none duration-1000"
             width="500"
             height="500"
             style="
-              border: 5px solid rgb(255, 255, 255);
+              border: 3px solid rgb(255, 255, 255);
               filter: drop-shadow(10px 0px 20px rgb(0, 0, 0));
+              box-shadow:  8px 8px 16px #751b1b,
+             -8px -8px 16px #a52525;
               "
           />
+          
         </div v-motion-slide-right>
+
       </div>
     </section>
   </template>
@@ -144,7 +153,7 @@
     position: relative;
     color: rgb(170, 170, 170);
     text-decoration: none;
-    font-size: 16px;
+    /* font-size: 16px; */
     -webkit-text-stroke-color: rgba(255, 255, 255, 0.9);
     letter-spacing: 1.5px;
     padding-bottom: 5px; /* Add some space for the underline */
@@ -317,6 +326,11 @@
   font-family: "Poppins", sans-serif;
   font-weight: 900;
   font-style: italic;
+}
+.rubik-scribble-regular {
+  font-family: "Rubik Scribble", system-ui;
+  font-weight: 1000;
+  font-style: normal;
 }
 
   </style>

@@ -1,27 +1,113 @@
-      <div class="bg-gray-100 min-h-screen py-12 px-4">
-        <div class="max-w-3xl mx-auto">
-          <h1 class="text-3xl font-bold text-center mb-8">
-            Education Background
-          </h1>
-
-          <!-- List of Education Entries -->
-          <div
-            v-for="(entry, index) in education"
-            :key="index"
-            class="bg-white shadow-md rounded-lg p-6 mb-8"
-          >
-            <h2 class="text-2xl font-semibold">{{ entry.degree }}</h2>
-            <p class="text-lg text-gray-600 mb-2">{{ entry.institution }}</p>
-            <p class="text-gray-600 mb-4">{{ entry.duration }}</p>
-            <ul class="list-disc pl-6">
-              <li
-                v-for="(achievement, idx) in entry.achievements"
-                :key="idx"
-                class="mb-2"
-              >
-                {{ achievement }}
-              </li>
-            </ul>
-          </div>
-        </div>
+<div class="text-4xl font-bold text-center tracking-wider">Education</div>
+<div
+  class="spacex-y-8 px-20 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-300 before:to-transparent"
+>
+  <!-- Item #1 -->
+  <div
+    class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active"
+  >
+    <!-- Icon -->
+    <div
+      class="flex items-center justify-center w-10 h-10 rounded-full text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2"
+    >
+      ja
+      <img src="/assets/images/cspc.png" alt="" />
+    </div>
+    <!-- Card -->
+    <div
+      class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-slate-200 shadow"
+    >
+      <div class="flex items-center justify-between space-x-2 mb-1">
+        <div class="font-bold text-slate-900">College level</div>
+        <time class="font-caveat font-medium text-indigo-500">2020 - 2024</time>
       </div>
+      <div class="text-slate-500">
+        Bachelor of Science in Information Technology
+      </div>
+      <div class="text-slate-500">Camarines Sur Polythecnic Colleges</div>
+      <ul class="list-disc pl-6 text-slate-500">
+        <!-- <li>GPA: 3.8/4.0</li> -->
+        <li>Dean's Lister</li>
+        <li>
+          Completed capstone project Web application using Laravel Framework
+          (Library Collection Mapping System)
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Item #2 -->
+  <div
+    class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active"
+  >
+    <!-- Icon -->
+    <div
+      class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-emerald-500 text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2"
+    >
+      <img src="/assets/images/shs.jpg" alt="" />
+    </div>
+    <!-- Card -->
+    <div
+      class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-slate-200 shadow"
+    >
+      <div class="flex items-center justify-between space-x-2 mb-1">
+        <div class="font-bold text-slate-900">Senior High School Level</div>
+        <time class="font-caveat font-medium text-indigo-500">09/06/2023</time>
+      </div>
+      <div class="text-slate-500">
+        Pretium lectus quam id leo. Urna et pharetra aliquam vestibulum morbi
+        blandit cursus risus.
+      </div>
+    </div>
+  </div>
+
+  <!-- Item #3 -->
+  <div
+    class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active"
+  >
+    <!-- Icon -->
+    <div
+      class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-emerald-500 text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2"
+    >
+      <img src="/assets/images/nnhs.jfif" alt="" />
+    </div>
+    <!-- Card -->
+    <div
+      class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-slate-200 shadow"
+    >
+      <div class="flex items-center justify-between space-x-2 mb-1">
+        <div class="font-bold text-slate-900">High School Level</div>
+        <time class="font-caveat font-medium text-indigo-500">10/06/2023</time>
+      </div>
+      <div class="text-slate-500">
+        Pretium lectus quam id leo. Urna et pharetra aliquam vestibulum morbi
+        blandit cursus risus.
+      </div>
+    </div>
+  </div>
+
+  <!-- Item #4 -->
+  <div
+    class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active"
+  >
+    <!-- Icon -->
+    <div
+      class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-emerald-500 text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2"
+    >
+      <img src="/assets/images/elementary.png" alt="" />
+    </div>
+    <!-- Card -->
+    <div
+      class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-slate-200 shadow"
+    >
+      <div class="flex items-center justify-between space-x-2 mb-1">
+        <div class="font-bold text-slate-900">Elementary Level</div>
+        <time class="font-caveat font-medium text-indigo-500">12/06/2023</time>
+      </div>
+      <div class="text-slate-500">
+        Pretium lectus quam id leo. Urna et pharetra aliquam vestibulum morbi
+        blandit cursus risus.
+      </div>
+    </div>
+  </div>
+</div>
