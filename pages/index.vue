@@ -32,7 +32,7 @@
               Home
             </nuxt-link>
             <nuxt-link
-              to="/haha"
+              to="/education"
               class="flex text-decoration-none custom-link text-xs"
             >
               <span class="mr-1">&gt;</span>
