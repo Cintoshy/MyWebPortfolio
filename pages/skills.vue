@@ -52,7 +52,7 @@
           @click="progress = 78"
         >
           <svg
-            class="w-5 h-5 sm:w-10 sm:h-10"
+            class="w-7 h-7 sm:w-10 sm:h-10"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 256 361"
           >
@@ -85,7 +85,7 @@
           @click="progress = 72"
         >
           <svg
-            class="w-5 h-5 sm:w-10 sm:h-10"
+            class="w-7 h-7 sm:w-10 sm:h-10"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 256 361"
           >
@@ -114,11 +114,11 @@
       </div>
       <div>
         <div
-          class="flex items-center w-full max-w-xs p-3 sm:p-4 space-x-4 rtl:space-x-reverse text-gray-500 bg-white divide-x rtl:divide-x-reverse divide-gray-200 rounded-lg shadow transition-transform ease-in-out delay-100 hover:scale-105 cursor-pointer"
+          class="flex items-center w-full max-w-xs p-2 sm:p-4 space-x-4 rtl:space-x-reverse text-gray-500 bg-white divide-x rtl:divide-x-reverse divide-gray-200 rounded-lg shadow transition-transform ease-in-out delay-100 hover:scale-105 cursor-pointer"
           @click="progress = 60"
         >
           <svg
-            class="w-5 h-5 sm:w-10 sm:h-10"
+            class="w-7 h-7 sm:w-10 sm:h-10"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 256 256"
           >
@@ -136,7 +136,7 @@
           @click="progress = 80"
         >
           <svg
-            class="w-5 h-5 sm:w-10 sm:h-10"
+            class="w-7 h-7 sm:w-10 sm:h-10"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 128 128"
           >
@@ -212,7 +212,7 @@
           @click="progress = 75"
         >
           <svg
-            class="w-5 h-5 sm:w-10 sm:h-10"
+            class="w-7 h-7 sm:w-10 sm:h-10"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 32 32"
           >
@@ -231,7 +231,7 @@
           @click="progress = 76"
         >
           <svg
-            class="w-5 h-5 sm:w-10 sm:h-10"
+            class="w-7 h-7 sm:w-10 sm:h-10"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 256 264"
           >
@@ -249,7 +249,7 @@
           @click="progress = 68"
         >
           <svg
-            class="w-5 h-5 sm:w-10 sm:h-10"
+            class="w-7 h-7 sm:w-10 sm:h-10"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 256 221"
           >
@@ -275,7 +275,7 @@
           @click="progress = 69"
         >
           <svg
-            class="w-5 h-5 sm:w-10 sm:h-10"
+            class="w-7 h-7 sm:w-10 sm:h-10"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 256 168"
           >
@@ -293,7 +293,7 @@
           @click="progress = 60"
         >
           <svg
-            class="w-5 h-5 sm:w-10 sm:h-10"
+            class="w-7 h-7 sm:w-10 sm:h-10"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 256 256"
           >
