@@ -1,7 +1,6 @@
 <template>
   <section
     class="overflow-hidden flex sm:flex-none items-center h-screen md:h-max lg:h-screen"
-    id="home"
   >
     <div class="flex flex-col-reverse md:flex-row w-full md:h-screen">
       <div
@@ -40,10 +39,13 @@
               Education
             </nuxt-link>
 
-            <a href="#" class="flex text-decoration-none custom-link text-xs">
+            <nuxt-link
+              to="/skills"
+              class="flex text-decoration-none custom-link text-xs"
+            >
               <span class="mr-1">&gt;</span>
               Skills
-            </a>
+            </nuxt-link>
             <a href="#" class="flex text-decoration-none custom-link text-xs">
               <span class="mr-1">&gt;</span>
               Projects
@@ -139,16 +141,6 @@ import logoPath from "../assets/images/8.png";
 </script>
 
 <style scoped>
-#home {
-  background: rgb(2, 0, 36);
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(121, 9, 9, 1) 65%,
-    rgba(255, 0, 0, 1) 100%
-  );
-  color: #f0f0f0;
-}
 .text {
   border-right: 5px solid;
   width: 100%;
@@ -238,117 +230,5 @@ import logoPath from "../assets/images/8.png";
   text-decoration: none;
   letter-spacing: 1.5px;
   border-bottom: 3px solid rgb(211, 0, 0); /* Add underline */
-}
-.poppins-thin {
-  font-family: "Poppins", sans-serif;
-  font-weight: 100;
-  font-style: normal;
-}
-
-.poppins-extralight {
-  font-family: "Poppins", sans-serif;
-  font-weight: 200;
-  font-style: normal;
-}
-
-.poppins-light {
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.poppins-regular {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.poppins-medium {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.poppins-semibold {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-}
-
-.poppins-bold {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.poppins-extrabold {
-  font-family: "Poppins", sans-serif;
-  font-weight: 800;
-  font-style: normal;
-}
-
-.poppins-black {
-  font-family: "Poppins", sans-serif;
-  font-weight: 900;
-  font-style: normal;
-}
-
-.poppins-thin-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 100;
-  font-style: italic;
-}
-
-.poppins-extralight-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 200;
-  font-style: italic;
-}
-
-.poppins-light-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-style: italic;
-}
-
-.poppins-regular-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.poppins-medium-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-style: italic;
-}
-
-.poppins-semibold-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-style: italic;
-}
-
-.poppins-bold-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: italic;
-}
-
-.poppins-extrabold-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 800;
-  font-style: italic;
-}
-
-.poppins-black-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 900;
-  font-style: italic;
-}
-.rubik-scribble-regular {
-  font-family: "Rubik Scribble", system-ui;
-  font-weight: 1000;
-  font-style: normal;
 }
 </style>

@@ -2,11 +2,6 @@
 export default {
   theme: {
     extend: {
-      colors: {
-        primary: "#dea204",
-        secondary: "#f4f4f4",
-        grey: "#e8e8e8",
-      },
       fontFamily: {
         sans: ["Poppins", "sans-serif"],
       },
@@ -36,5 +31,8 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
+  daisyui: {
+    themes: [],
+  },
 };
