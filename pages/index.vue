@@ -55,6 +55,7 @@
           <div class="flex flex-row mt-5 gap-x-3">
             <a href="https://web.facebook.com/marklouis.odavar.7/">
               <svg
+                class="hover:scale-110"
                 xmlns="http://www.w3.org/2000/svg"
                 width="1.5em"
                 height="1.5em"
@@ -68,6 +69,7 @@
             </a>
             <a href="">
               <svg
+                class="hover:scale-110"
                 xmlns="http://www.w3.org/2000/svg"
                 width="1.5em"
                 height="1.5em"
@@ -81,6 +83,7 @@
             </a>
             <a href="">
               <svg
+                class="hover:scale-110"
                 xmlns="http://www.w3.org/2000/svg"
                 width="1.5em"
                 height="1.5em"
@@ -94,6 +97,7 @@
             </a>
             <a href="">
               <svg
+                class="hover:scale-110"
                 xmlns="http://www.w3.org/2000/svg"
                 width="1.5em"
                 height="1.5em"
@@ -138,6 +142,10 @@
 
 <script setup>
 import logoPath from "../assets/images/8.png";
+
+definePageMeta({
+  layout: false,
+});
 </script>
 
 <style scoped>

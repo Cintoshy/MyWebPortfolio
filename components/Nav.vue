@@ -1,5 +1,11 @@
 <template>
   <div>
+    <NavSlider
+      @close="toggleClick"
+      :style="{
+        transform: isClick ? 'translateY(-100%)' : 'translateY(0px)',
+      }"
+    />
     <nav class="overflow-hidden bg-black bg-opacity-60 shadow-xl">
       <div
         class="max-w-screen-xl flex flex-wrap items-center justify-between mx-3 md:mx-20 xl:mx-auto pt-5 pb-4"
@@ -14,10 +20,10 @@
           >
         </nuxt-link>
         <button
-          @click="isHide = !isHide"
+          @click="toggleClick"
           data-collapse-toggle="navbar-default"
           type="button"
-          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600b"
           aria-controls="navbar-default"
           aria-expanded="false"
         >
@@ -38,6 +44,7 @@
             />
           </svg>
         </button>
+
         <div class="hidden w-full md:block md:w-auto">
           <div class="flex flex-row gap-x-5">
             <nuxt-link to="/" class="flex text-decoration-none custom-link">
@@ -70,7 +77,12 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+const isClick = ref(true);
+const toggleClick = () => {
+  isClick.value = !isClick.value;
+};
+</script>
 
 <style scoped>
 .custom-link {

@@ -1,5 +1,6 @@
 <template>
-  <div id="home" class="h-dvh">
+  <div id="home">
+    <!-- <button @click="toggleClick" class="p-4 bg-black">ashdadw</button> -->
     <div class="flex justify-center w-full">
       <div
         class="w-full"
@@ -19,9 +20,7 @@
             delay: 100,
           },
         }"
-      >
-        <Nav />
-      </div>
+      ></div>
     </div>
     <div
       v-motion

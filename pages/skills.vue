@@ -1,6 +1,5 @@
 <template>
   <div>
-    <Nav />
     <div class="flex justify-center">
       <div>
         <h1
