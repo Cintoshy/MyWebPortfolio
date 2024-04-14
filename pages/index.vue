@@ -3,7 +3,7 @@
     class="overflow-hidden flex sm:flex-none items-center h-screen md:h-max lg:h-screen"
   >
     <div
-      class="flex flex-col-reverse items-start content-start justify-start justify-self-start lg:flex-row w-full md:h-screen"
+      class="flex flex-col-reverse items-start content-end justify-end justify-self-end lg:flex-row w-full md:h-screen"
     >
       <div
         v-motion-slide-left
