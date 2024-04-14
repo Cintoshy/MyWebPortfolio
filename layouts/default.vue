@@ -9,4 +9,12 @@
 
 <script></script>
 
-<style></style>
+<style>
+/* body {
+  background-color: #f4f4f4;
+}
+.router-link-exact-active {
+  background-color: #f4f4f4;
+  color: #28363d;
+} */
+</style>

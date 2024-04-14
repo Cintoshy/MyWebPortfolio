@@ -2,7 +2,7 @@
   <section
     class="overflow-hidden flex sm:flex-none items-center h-screen md:h-max lg:h-screen"
   >
-    <div class="flex flex-col-reverse md:flex-row w-full md:h-screen">
+    <div class="flex flex-col-reverse lg:flex-row w-full md:h-screen">
       <div
         v-motion-slide-left
         class="flex justify-center items-center w-full lg:w-1/2"
@@ -115,10 +115,10 @@
 
       <div
         v-motion-slide-right
-        class="relative flex justify-center px-8 sm:p-none items-end md:items-center w-full lg:w-1/2"
+        class="flex justify-center px-8 sm:p-none items-end md:items-center w-full lg:w-1/2"
       >
         <span
-          class="animate-[ping_2.5s_infinite] absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-10"
+          class="animate-[ping_2.5s_infinite] absolute top-10 md:top-auto h-3/4 w-3/4 rounded-full bg-red-400 opacity-10"
         ></span>
         <!-- <span class="relative inline-flex rounded-full h-16 w-16 bg-sky-500 animate-ping"></span> -->
 

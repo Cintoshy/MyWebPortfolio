@@ -1,27 +1,5 @@
 <template>
-  <div id="home">
-    <!-- <button @click="toggleClick" class="p-4 bg-black">ashdadw</button> -->
-    <div class="flex justify-center w-full">
-      <div
-        class="w-full"
-        v-motion
-        :initial="{
-          opacity: 0,
-          y: 400,
-        }"
-        :enter="{
-          opacity: 1,
-          y: 0,
-          transition: {
-            opacity: 0,
-            duration: 1000,
-            damping: 10,
-            precision: 0.01,
-            delay: 100,
-          },
-        }"
-      ></div>
-    </div>
+  <div id="home" class="h-dvh">
     <div
       v-motion
       :initial="{
@@ -36,7 +14,7 @@
           duration: 900,
           damping: 26,
           precision: 0.01,
-          delay: 900,
+          delay: 400,
         },
       }"
     >
@@ -215,7 +193,7 @@ const enter = ref({
     duration: 900,
     damping: 26,
     precision: 0.01,
-    delay: 1700,
+    delay: 1000,
   },
 });
 </script>
