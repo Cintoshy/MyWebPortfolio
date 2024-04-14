@@ -2,7 +2,9 @@
   <section
     class="overflow-hidden flex sm:flex-none items-center h-screen md:h-max lg:h-screen"
   >
-    <div class="flex flex-row w-full md:h-screen">
+    <div
+      class="flex flex-col-reverse items-start lg:flex-row w-full md:h-screen"
+    >
       <div
         v-motion-slide-left
         class="flex justify-center items-center w-full lg:w-1/2"
