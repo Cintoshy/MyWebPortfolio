@@ -41,16 +41,10 @@
             </text>
           </svg>
         </div>
-        <!-- <input
-        type="text"
-        class="border-2"
-        v-model="progress"
-        @change="progressCircleClass"
-      /> -->
       </div>
     </div>
     <div class="flex justify-center">
-      <div class="grid grid-cols-2 sm:grid-cols-3 gap-4 px-2 pt-10">
+      <div class="grid grid-cols-2 sm:grid-cols-3 gap-4 px-2 pt-10 mb-10">
         <div>
           <div
             class="flex items-center w-full max-w-xs p-3 sm:p-4 space-x-4 rtl:space-x-reverse text-gray-500 bg-white divide-x rtl:divide-x-reverse divide-gray-200 rounded-lg shadow transition-transform ease-in-out delay-100 hover:scale-105 cursor-pointer"

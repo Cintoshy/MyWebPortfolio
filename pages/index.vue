@@ -1,6 +1,6 @@
 <template>
   <section
-    class="overflow-hidden flex sm:flex-none items-center h-screen md:h-max lg:h-screen"
+    class="overflow-hidden flex sm:flex-none items-center min-h-screen md:h-max lg:h-screen"
   >
     <div
       class="flex flex-col-reverse content-center justify-center lg:flex-row w-full md:h-screen"
@@ -10,11 +10,9 @@
         class="flex justify-center items-center w-full lg:w-1/2"
       >
         <div class="flex flex-col">
-          <div class="font-bold uppercase py-0 mt-5 md:my-0">
-            Hello world, I'm
-          </div>
+          <div class="font-bold uppercase py-0 mt-5">Hello world, I'm</div>
           <div
-            class="text-3xl md:text-5xl font-extrabold font-sans my-1 rubik-scribble-regular"
+            class="text-3xl sm:text-5xl font-extrabold font-sans my-1 rubik-scribble-regular"
           >
             Mark Louis Odavar
           </div>
@@ -120,16 +118,14 @@
         class="flex justify-center px-8 sm:p-none items-end md:items-center w-full lg:w-1/2"
       >
         <span
-          class="animate-[ping_3s_infinite] absolute top-10 md:top-auto h-3/4 w-3/4 rounded-full bg-red-400 opacity-10"
+          class="animate-[ping_3s_infinite] absolute top-10 sm:top-auto h-3/4 w-3/4 rounded-full bg-red-400 opacity-10"
         ></span>
         <!-- <span class="relative inline-flex rounded-full h-16 w-16 bg-sky-500 animate-ping"></span> -->
 
         <img
           v-bind:src="logoPath"
           alt="Profile Picture"
-          class="rounded-full hover:scale-105 transition delay-100 ease-in-out shadow-lg animate-[float_3s_infinite] sm:animate-none duration-1000"
-          width="500"
-          height="500"
+          class="rounded-full hover:scale-105 transition delay-100 ease-in-out shadow-lg animate-[float_3s_infinite] sm:animate-none duration-1000 max-w-xs max-h-xs sm:max-w-sm sm:max-h-sm lg:max-w-lg lg:max-h-lg"
           style="
             border: 3px solid rgb(255, 255, 255);
             filter: drop-shadow(10px 0px 20px rgb(0, 0, 0));
