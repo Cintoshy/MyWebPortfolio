@@ -28,27 +28,31 @@
         >
           SKILLS
         </nuxt-link>
-        <a href="#" class="poppins-extrabold custom-link tracking-wider py-3">
-          PROJECTS
-        </a>
-      </div>
-      <button
-        @click="close"
-        class="absolute bottom-20 text-white hover:text-gray-400 hover:scale-110"
-      >
-        <svg
-          class="text-inherit"
-          xmlns="http://www.w3.org/2000/svg"
-          width="2.5em"
-          height="2.5em"
-          viewBox="0 0 256 256"
+        <nuxt-link
+          @click="close"
+          to="/projects"
+          class="poppins-extrabold custom-link tracking-wider py-3"
         >
-          <path
-            fill="currentColor"
-            d="M165.66 101.66L139.31 128l26.35 26.34a8 8 0 0 1-11.32 11.32L128 139.31l-26.34 26.35a8 8 0 0 1-11.32-11.32L116.69 128l-26.35-26.34a8 8 0 0 1 11.32-11.32L128 116.69l26.34-26.35a8 8 0 0 1 11.32 11.32M232 128A104 104 0 1 1 128 24a104.11 104.11 0 0 1 104 104m-16 0a88 88 0 1 0-88 88a88.1 88.1 0 0 0 88-88"
-          />
-        </svg>
-      </button>
+          PROJECTS
+        </nuxt-link>
+        <button
+          @click="close"
+          class="text-white hover:text-gray-400 hover:scale-110 mt-10"
+        >
+          <svg
+            class="text-inherit"
+            xmlns="http://www.w3.org/2000/svg"
+            width="2.5em"
+            height="2.5em"
+            viewBox="0 0 256 256"
+          >
+            <path
+              fill="currentColor"
+              d="M165.66 101.66L139.31 128l26.35 26.34a8 8 0 0 1-11.32 11.32L128 139.31l-26.34 26.35a8 8 0 0 1-11.32-11.32L116.69 128l-26.35-26.34a8 8 0 0 1 11.32-11.32L128 116.69l26.34-26.35a8 8 0 0 1 11.32 11.32M232 128A104 104 0 1 1 128 24a104.11 104.11 0 0 1 104 104m-16 0a88 88 0 1 0-88 88a88.1 88.1 0 0 0 88-88"
+            />
+          </svg>
+        </button>
+      </div>
     </div>
   </div>
 </template>

@@ -18,7 +18,9 @@
         },
       }"
     >
-      <div class="poppins-extrabold text-4xl text-center pt-10 pb-8">
+      <div
+        class="poppins-extrabold text-4xl text-center pt-10 pb-8 text-gray-200"
+      >
         EDUCATION
       </div>
       <div

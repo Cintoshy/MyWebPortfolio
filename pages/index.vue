@@ -46,14 +46,20 @@
               <span class="mr-1">&gt;</span>
               Skills
             </nuxt-link>
-            <a href="#" class="flex text-decoration-none custom-link text-xs">
+            <nuxt-link
+              to="/projects"
+              class="flex text-decoration-none custom-link text-xs"
+            >
               <span class="mr-1">&gt;</span>
               Projects
-            </a>
+            </nuxt-link>
           </div>
 
           <div class="flex flex-row mt-5 gap-x-3">
-            <a href="https://web.facebook.com/marklouis.odavar.7/">
+            <a
+              href="https://web.facebook.com/marklouis.odavar.7/"
+              target="_blank"
+            >
               <svg
                 class="hover:scale-110"
                 xmlns="http://www.w3.org/2000/svg"
@@ -67,7 +73,7 @@
                 />
               </svg>
             </a>
-            <a href="">
+            <a href="https://www.instagram.com/var_mrkls/" target="_blank">
               <svg
                 class="hover:scale-110"
                 xmlns="http://www.w3.org/2000/svg"
@@ -81,7 +87,7 @@
                 />
               </svg>
             </a>
-            <a href="">
+            <a href="https://github.com/Cintoshy" target="_blank">
               <svg
                 class="hover:scale-110"
                 xmlns="http://www.w3.org/2000/svg"
@@ -95,7 +101,10 @@
                 />
               </svg>
             </a>
-            <a href="">
+            <a
+              href="https://www.linkedin.com/in/mark-louis-odavar-79190329b/"
+              target="_blank"
+            >
               <svg
                 class="hover:scale-110"
                 xmlns="http://www.w3.org/2000/svg"
@@ -125,7 +134,7 @@
         <img
           v-bind:src="logoPath"
           alt="Profile Picture"
-          class="rounded-full hover:scale-105 transition delay-100 ease-in-out shadow-lg animate-[float_3s_infinite] sm:animate-none duration-1000 max-w-xs max-h-xs sm:max-w-sm sm:max-h-sm lg:max-w-lg lg:max-h-lg"
+          class="rounded-full hover:scale-105 transition delay-100 ease-in-out shadow-lg animate-[float_3s_infinite] sm:animate-none duration-1000 max-w-xs max-h-xs sm:max-w-sm sm:max-h-sm lg:max-w-md lg:max-h-md"
           style="
             border: 3px solid rgb(255, 255, 255);
             filter: drop-shadow(10px 0px 20px rgb(0, 0, 0));

@@ -66,10 +66,13 @@
               <span class="mr-1">&gt;</span>
               Skills
             </nuxt-link>
-            <a href="#" class="flex text-decoration-none custom-link">
+            <nuxt-link
+              to="/projects"
+              class="flex text-decoration-none custom-link"
+            >
               <span class="mr-1">&gt;</span>
               Projects
-            </a>
+            </nuxt-link>
           </div>
         </div>
       </div>
@@ -89,11 +92,11 @@ const toggleClick = () => {
   position: relative;
   color: rgb(187, 187, 187);
   text-decoration: none;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: bold;
   -webkit-text-stroke-color: rgba(255, 255, 255, 0.9);
-  letter-spacing: 1.5px;
-  padding-bottom: 5px; /* Add some space for the underline */
+  letter-spacing: 1px;
+  padding-bottom: 2px; /* Add some space for the underline */
   overflow: hidden; /* Hide overflow to ensure the underline doesn't overflow */
 }
 
@@ -130,23 +133,14 @@ const toggleClick = () => {
   transform: scaleX(1);
 }
 
-.custom-link:hover::after {
-  transform: translateY(-100%); /* Slide the gradient up on hover */
-}
-
 .custom-link:active::before {
   transform: scaleX(1); /* Show underline on active */
 }
 
-#spacing-letter {
-  letter-spacing: 1px;
-  font-size: 45px;
-}
 .active {
   color: red; /* Change color to red for active link */
   text-decoration: none;
-  font-size: 14px;
-  font-weight: bold;
+  font-size: 12px;
   letter-spacing: 1.5px;
   padding-bottom: 4px; /* Add some space for the underline */
   border-bottom: 3px solid red; /* Add underline */
@@ -159,17 +153,17 @@ const toggleClick = () => {
 .router-link-exact-active {
   color: red; /* Change color to red for active link */
   text-decoration: none;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: bold;
   letter-spacing: 1.5px;
-  padding-bottom: 4px; /* Add some space for the underline */
-  border-bottom: 3px solid red; /* Add underline */
+  padding-bottom: 3px; /* Add some space for the underline */
+  border-bottom: 2px solid red; /* Add underline */
 }
 .router-link-exact-active:hover {
   color: rgb(211, 0, 0); /* Change color to red for active link */
   cursor: pointer;
   text-decoration: none;
   letter-spacing: 1.5px;
-  border-bottom: 3px solid rgb(211, 0, 0); /* Add underline */
+  border-bottom: 2px solid rgb(211, 0, 0); /* Add underline */
 }
 </style>

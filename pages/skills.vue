@@ -3,7 +3,7 @@
     <div class="flex justify-center">
       <div>
         <h1
-          class="poppins-extrabold text-3xl sm:text-4xl pt-5 pb-7 text-center"
+          class="poppins-extrabold text-3xl sm:text-4xl pt-5 pb-7 text-center text-gray-200"
         >
           SKILLS
         </h1>
