@@ -1,6 +1,6 @@
 <template>
   <section
-    class="overflow-hidden flex sm:flex-none items-center min-h-screen md:h-max lg:h-screen"
+    class="overflow-hidden flex sm:flex-none items-center min-h-dvh md:h-dvh lg:h-dvh"
   >
     <div
       class="flex flex-col-reverse content-center justify-center lg:flex-row w-full md:h-screen"

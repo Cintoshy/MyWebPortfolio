@@ -87,7 +87,7 @@ const toggleClick = () => {
 <style scoped>
 .custom-link {
   position: relative;
-  color: rgb(222, 222, 222);
+  color: rgb(187, 187, 187);
   text-decoration: none;
   font-size: 14px;
   font-weight: bold;
