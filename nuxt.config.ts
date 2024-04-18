@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     },
     pageTransition: { name: "page", mode: "out-in" },
   },
-  modules: ["@nuxtjs/tailwindcss", "@vueuse/motion/nuxt"],
+  modules: ["@nuxtjs/tailwindcss", "@vueuse/motion/nuxt", "nuxt-swiper"],
+
   css: ["@/assets/css/main.css"],
 });
