@@ -234,7 +234,8 @@ definePageMeta({
 .active {
   color: red; /* Change color to red for active link */
   text-decoration: none;
-  font-size: 16px;
+  font-size: 13px;
+  font-weight: bold;
   letter-spacing: 1.5px;
   padding-bottom: 4px; /* Add some space for the underline */
   border-bottom: 3px solid red; /* Add underline */
