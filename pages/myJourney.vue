@@ -26,9 +26,9 @@
         prioritize learning and am eager to embrace future opportunities
       </div>
       <div
-        class="flex flex-col lg:flex-row bg-slate-700 h-full p-5 md:p-10 bg-opacity-20 rounded-b-md"
+        class="flex flex-col bg-slate-700 h-full p-5 md:p-10 bg-opacity-20 rounded-b-md"
       >
-        <div class="w-full lg:w-1/2">
+        <div class="w-full">
           <h1 class="font-bold text-lg">Work Experience</h1>
           <h4 class="text-slate-200 text-opacity-70">
             2024 - PRESENT (Internship)
@@ -63,20 +63,37 @@
             </li>
           </ul>
         </div>
-        <div class="w-full lg:w-1/2 md:m-5">
+        <div class="w-full md:m-5">
           <div
-            class="flex flex-wrap justify-center items-center gap-4 p-4 h-full"
+            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 p-4"
           >
+            <div
+              class="flex justify-center items-center h-64 bg-gray-400 bg-opacity-40 rounded-lg"
+            >
+              <img
+                src="../assets/images/team.jpg"
+                alt="Image 1"
+                class="object-fill max-w-full max-h-full"
+              />
+            </div>
             <div
               class="flex justify-center items-center h-64 bg-gray-200 rounded-lg"
             >
               <img
-                src="../assets/images/team.jpg"
-                alt="Image 3"
-                class="max-h-full max-w-full"
+                src="../assets/images/code.jpg"
+                alt="Image 2"
+                class="object-cover w-full h-full rounded-lg"
               />
             </div>
-
+            <div
+              class="flex justify-center items-center h-64 bg-gray-200 rounded-lg"
+            >
+              <img
+                src="../assets/images/mobile1.jpg"
+                alt="Image 3"
+                class="object-cover w-full h-full rounded-lg"
+              />
+            </div>
             <!-- Add more images as needed -->
           </div>
         </div>
