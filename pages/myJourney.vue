@@ -1,32 +1,86 @@
 <template>
-  <div class="grid grid-rows-3 grid-flow-col gap-4 p-5">
-    <div class="row-span-3 bg-gray-500">
-      <h1 class="text-6xl text-center pt-5">About Me</h1>
-      <img class="p-5 m-auto" :src="myPhoto" width="300" alt="" />
-      <h1>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-        quibusdam repudiandae sequi deserunt molestiae. Iste at reprehenderit
-        eos! Impedit aperiam eveniet tenetur ipsam unde! Cum dolor optio quae
-        magni odit.
-      </h1>
-    </div>
-    <div class="col-span-12 bg-gray-500">
-      <img class="p-5 m-auto" :src="myPhoto" width="300" alt="" />
-      <h1>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-        quibusdam repudiandae sequi deserunt molestiae. Iste at reprehenderit
-        eos! Impedit aperiam eveniet tenetur ipsam unde! Cum dolor optio quae
-        magni odit.
-      </h1>
-    </div>
-    <div class="row-span-2 col-span-12 bg-gray-500">
-      <img class="p-5 m-auto" :src="myPhoto" width="300" alt="" />
-      <h1>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-        quibusdam repudiandae sequi deserunt molestiae. Iste at reprehenderit
-        eos! Impedit aperiam eveniet tenetur ipsam unde! Cum dolor optio quae
-        magni odit.
-      </h1>
+  <div class="w-full">
+    <div class="mx-5 lg:mx-60 mb-10">
+      <div
+        class="flex items-center h-36 bg-slate-500 mt-5 gap-10 bg-opacity-20 rounded-t-md"
+      >
+        <div>
+          <img
+            class="rounded-full ml-5 md:ml-10"
+            src="../assets/images/me_formal.jpg"
+            width="125"
+            alt=""
+          />
+        </div>
+        <div>
+          <div class="text-2xl sm:text-5xl font-bold">ABOUT ME</div>
+          <div>as a Software Developer</div>
+        </div>
+      </div>
+      <div class="h-full bg-slate-600 p-5 sm:p-10 bg-opacity-20">
+        As an Aspiring Software Developer, I'm passionate about leveraging
+        technology to address problems. I'm excited to learn and collaborate
+        with peers while maintaining a humble attitude. Innovation is a driving
+        force for me, and I'm committed to making a positive impact. I believe
+        in the strength of teamwork and collaborative efforts. Above all, I
+        prioritize learning and am eager to embrace future opportunities
+      </div>
+      <div
+        class="flex flex-col lg:flex-row bg-slate-700 h-full p-5 md:p-10 bg-opacity-20 rounded-b-md"
+      >
+        <div class="w-full lg:w-1/2">
+          <h1 class="font-bold text-lg">Work Experience</h1>
+          <h4 class="text-slate-200 text-opacity-70">
+            2024 - PRESENT (Internship)
+          </h4>
+          <h4 class="italic">
+            Intelliseven Technology Solutions Inc. | Unit 309, 6th floor, West
+            City Plaza 66 West Ave, Quezon City, 1104 Metro Manila
+          </h4>
+          <br />
+          <ul class="list-disc ml-5 md:ml-10">
+            <li>
+              Develop and implement tailored website solutions to precisely
+              match client specifications and demands.
+            </li>
+            <li>
+              Engaged in real-time website development, actively building
+              dynamic websites from inception to completion.
+            </li>
+            <li>
+              Experienced in frontend development using Vue-NuxtJS, and backend
+              development with Express.js, utilizing MongoDB for database
+              management.
+            </li>
+            <li>
+              Assigned in mobile app development using React Native, working on
+              creating cross-platform applications for iOS and Android
+              platforms, collaborating with a team of developers to design,
+              develop, test, and deploy robust and user-friendly mobile
+              solutions, and staying updated with the latest trends and best
+              practices in mobile app development to ensure the delivery of
+              high-quality and innovative applications.
+            </li>
+          </ul>
+        </div>
+        <div class="w-full lg:w-1/2 md:m-5">
+          <div
+            class="flex flex-wrap justify-center items-center gap-4 p-4 h-full"
+          >
+            <div
+              class="flex justify-center items-center h-64 bg-gray-200 rounded-lg"
+            >
+              <img
+                src="../assets/images/team.jpg"
+                alt="Image 3"
+                class="max-h-full max-w-full"
+              />
+            </div>
+
+            <!-- Add more images as needed -->
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>

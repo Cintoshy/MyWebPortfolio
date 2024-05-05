@@ -19,7 +19,7 @@
           <div class="inline-block">
             <div class="sm:text-1xl font-bold text py-0 my-0">
               Aspiring
-              <span class="text-red-500">Web Developer </span>
+              <span class="text-red-500">Software Developer </span>
               <span class="hidden sm:inline-block"
                 >from Camarines Sur Polytechnic Colleges</span
               >
