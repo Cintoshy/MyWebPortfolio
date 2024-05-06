@@ -2,7 +2,7 @@
   <div class="w-full">
     <div class="mx-5 lg:mx-60 mb-10">
       <div
-        class="flex items-center h-36 bg-slate-400 mt-5 gap-5 sm:gap-10 bg-opacity-40 rounded-t-md"
+        class="flex items-center h-36 bg-slate-400 mt-5 gap-5 sm:gap-10 bg-opacity-30 rounded-t-md"
       >
         <div>
           <img
@@ -17,7 +17,7 @@
           <div>as a Software Developer</div>
         </div>
       </div>
-      <div class="h-full bg-slate-500 p-5 sm:p-10 bg-opacity-40">
+      <div class="h-full bg-slate-500 p-5 sm:p-10 bg-opacity-30">
         As an Aspiring Software Developer, I'm passionate about leveraging
         technology to address problems. I'm excited to learn and collaborate
         with peers while maintaining a humble attitude. Innovation is a driving
@@ -26,7 +26,7 @@
         prioritize learning and am eager to embrace future opportunities
       </div>
       <div
-        class="flex flex-col bg-slate-600 h-full p-5 md:p-10 bg-opacity-40 rounded-b-md"
+        class="flex flex-col bg-slate-600 h-full p-5 md:p-10 bg-opacity-30 rounded-b-md"
       >
         <div class="w-full">
           <h1 class="font-bold text-lg">Work Experience</h1>
