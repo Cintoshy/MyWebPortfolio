@@ -115,10 +115,6 @@ const slides = ref([
   },
 ]);
 
-const check = () => {
-  console.log(slides.value);
-};
-check();
 </script>
 
 <template>
