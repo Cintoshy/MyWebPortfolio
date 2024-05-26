@@ -28,11 +28,11 @@ export default defineNuxtConfig({
           property: "og:description",
           content: "Mark Louis Odavar's professional portfolio",
         },
-        {
-          key: "og:image",
-          property: "og:image",
-          content: "https://www.marklouisodavar.cloud/logo.jpg",
-        },
+        // {
+        //   key: "og:image",
+        //   property: "og:image",
+        //   content: "https://www.marklouisodavar.cloud/logo.jpg",
+        // },
         {
           key: "og:url",
           property: "og:url",
