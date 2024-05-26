@@ -7,32 +7,28 @@ export default defineNuxtConfig({
       viewport: "width=device-width, initial-scale=1",
       meta: [
         {
-          key: "description",
           name: "description",
-          content: "Mark Louis Odavar's professional portfolio",
+          content: "Mark Louis Odavar's professional portfolio, showcasing his proficiency in numerous frameworks such as Laravel, React, Vue.js, React Native and Node.js,",
         },
         {
-          key: "keywords",
           name: "keywords",
-          content: "Mark Louis Odavar, portfolio, web developer, projects",
+          content: "Mark Louis Odavar, portfolio, web developer, projects, freelance",
         },
         { name: "author", content: "Mark Louis Odavar" },
         { name: "robots", content: "index, follow" },
         {
-          key: "og:title",
           property: "og:title",
           content: "Mark Louis Odavar",
         },
         {
-          key: "og:description",
           property: "og:description",
           content: "Mark Louis Odavar's professional portfolio",
         },
-        // {
-        //   key: "og:image",
-        //   property: "og:image",
-        //   content: "https://www.marklouisodavar.cloud/logo.jpg",
-        // },
+        {
+          key: "og:image",
+          property: "og:image",
+          content: "https://media.licdn.com/dms/image/D5603AQHBhM9P-c_INQ/profile-displayphoto-shrink_200_200/0/1713414372162?e=2147483647&v=beta&t=TQhkNHp0wK_b8xjCT4Tj8pdB0x9natcEs70WSPoc7a4",
+        },
         {
           key: "og:url",
           property: "og:url",
