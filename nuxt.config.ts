@@ -38,6 +38,10 @@ export default defineNuxtConfig({
           property: "og:url",
           content: "https://www.marklouisodavar.cloud/",
         },
+        {
+          name: "google-site-verification",
+          content: "aYUHTnuPb_KNxmhVqo_VuOOgjbzkict4tXX7RsgFenE",
+        },
       ],
     },
 
