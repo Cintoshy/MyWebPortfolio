@@ -62,7 +62,7 @@ const emit = defineEmits();
 
 const close = () => {
   emit("close");
-  console.log("dsfdfs");
+  // console.log("dsfdfs");
 };
 onUnmounted(close);
 </script>

@@ -55,7 +55,7 @@
             </nuxt-link>
           </div>
 
-          <div class="flex flex-row mt-5 gap-x-3">
+          <div class="flex flex-row my-5 gap-x-3">
             <a
               href="https://web.facebook.com/marklouis.odavar.7/"
               target="_blank"
@@ -119,6 +119,32 @@
               </svg>
             </a>
           </div>
+          <nuxt-link to="/service" class="w-fit">
+            <div
+              class="backdrop-blur-sm bg-white/20 py-3 px-5 rounded-full border border-slate-400 hover:scale-105 ease-out duration-300"
+            >
+              <div class="flex content-center items-center">
+                <div class="text-xs font-medium">Service</div>
+                <div class="ps-1">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1.75em"
+                    height="1em"
+                    viewBox="0 0 16 9"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M12.5 5h-9c-.28 0-.5-.22-.5-.5s.22-.5.5-.5h9c.28 0 .5.22.5.5s-.22.5-.5.5"
+                    />
+                    <path
+                      fill="currentColor"
+                      d="M10 8.5a.47.47 0 0 1-.35-.15c-.2-.2-.2-.51 0-.71l3.15-3.15l-3.15-3.15c-.2-.2-.2-.51 0-.71s.51-.2.71 0l3.5 3.5c.2.2.2.51 0 .71l-3.5 3.5c-.1.1-.23.15-.35.15Z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </nuxt-link>
         </div>
       </div>
 
@@ -247,4 +273,60 @@ definePageMeta({
   letter-spacing: 1.5px;
   border-bottom: 3px solid rgb(211, 0, 0); /* Add underline */
 }
+/* .button-85 {
+  padding: 0.5em 1em 0.6em 0.5em;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 50px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-85:before {
+  content: "";
+  background: linear-gradient(45deg, #ff0000, #920000, #ff0033, #ff0000);
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-button-85 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  border-radius: 50px;
+}
+@keyframes glowing-button-85 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.button-85:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgb(2, 0, 36);
+  opacity: 20;
+  left: 0;
+  top: 0;
+  border-radius: 30px;
+} */
 </style>
