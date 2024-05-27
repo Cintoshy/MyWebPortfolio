@@ -121,10 +121,10 @@
           </div>
           <nuxt-link to="/service" class="w-fit">
             <div
-              class="backdrop-blur-sm bg-white/20 py-3 px-5 rounded-full border border-slate-400 hover:scale-105 ease-out duration-300"
+              class="backdrop-blur-sm bg-white/20 py-2 px-4 rounded-full border border-slate-400 hover:scale-105 ease-out duration-300"
             >
               <div class="flex content-center items-center">
-                <div class="text-xs font-medium">Service</div>
+                <div class="text-sm font-medium">Service</div>
                 <div class="ps-1">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
