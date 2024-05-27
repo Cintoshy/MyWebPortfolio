@@ -1,7 +1,7 @@
 <template>
   <div class="h-full">
     <div>
-      <div class="w-full h-full lg:h-screen flex justify-center items-center">
+      <div class="w-full h-full xl:h-screen flex justify-center items-center">
         <div
           class="flex flex-col justify-center items-center w-full lg:w-[60%]"
         >
@@ -115,7 +115,7 @@
         </div>
       </div>
       <div
-        class="bg-slate-50 bg-opacity-70 border-l border-slate-50 shadow-2xl px-10 md:px-52"
+        class="bg-slate-50 bg-opacity-70 border-l border-slate-50 shadow-2xl px-0 md:px-52"
       >
         <div class="p-5 bg-slate rounded-3xl mx-5">
           <div class="mb-5">
