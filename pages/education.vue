@@ -1,5 +1,5 @@
 <template>
-  <div id="home" class="h-dvh">
+  <div id="home" class="h-screen mb-10">
     <div
       v-motion
       :initial="{
