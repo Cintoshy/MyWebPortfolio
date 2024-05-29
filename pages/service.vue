@@ -11,10 +11,10 @@
         y: 0,
         transition: {
           stiffness: 80,
-          duration: 900,
+          duration: 800,
           damping: 26,
           precision: 0.01,
-          delay: 400,
+          delay: 300,
         },
       }"
     >
