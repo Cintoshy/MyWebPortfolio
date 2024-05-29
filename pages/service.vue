@@ -1,6 +1,23 @@
 <template>
   <div class="h-full">
-    <div>
+    <div
+      v-motion
+      :initial="{
+        opacity: 0,
+        y: 100,
+      }"
+      :enter="{
+        opacity: 1,
+        y: 0,
+        transition: {
+          stiffness: 80,
+          duration: 900,
+          damping: 26,
+          precision: 0.01,
+          delay: 400,
+        },
+      }"
+    >
       <div class="w-full h-full xl:h-screen flex justify-center items-center">
         <div
           class="flex flex-col justify-center items-center w-full lg:w-[60%]"
