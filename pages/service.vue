@@ -141,7 +141,7 @@
                     v-model="mailDetails.first_name"
                     id="first_name"
                     autocomplete="current-first_name"
-                    class="block p-2.5 w-full text-sm text-gray-900 bg-white border border-gray-300 rounded-lg appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                    class="caret-blue-700 block p-2.5 w-full text-sm text-gray-900 bg-white border border-gray-300 rounded-lg appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer"
                     placeholder="First Name"
                     required
                   />
@@ -152,7 +152,7 @@
                     v-model="mailDetails.last_name"
                     id="last_name"
                     autocomplete="current-last_name"
-                    class="block p-2.5 w-full text-sm text-gray-900 bg-white border border-gray-300 rounded-lg appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                    class="block p-2.5 w-full caret-blue-700 text-sm text-gray-900 bg-white border border-gray-300 rounded-lg appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer"
                     placeholder="Last Name"
                     required
                   />
@@ -164,7 +164,7 @@
                   v-model="mailDetails.email"
                   id="email"
                   autocomplete="current-email"
-                  class="block p-2.5 w-full text-sm text-gray-900 bg-white border border-gray-300 rounded-lg appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                  class="block p-2.5 w-full caret-blue-700 text-sm text-gray-900 bg-white border border-gray-300 rounded-lg appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer"
                   placeholder="Email address"
                   required
                 />
@@ -175,7 +175,7 @@
                   v-model="mailDetails.description"
                   id="description"
                   autocomplete="current-description"
-                  class="block h-28 min-h-20 max-h-52 p-2.5 w-full text-sm text-gray-900 bg-white border border-gray-300 rounded-lg appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                  class="caret-blue-700 block h-28 min-h-20 max-h-52 p-2.5 w-full text-sm text-gray-900 bg-white border border-gray-300 rounded-lg appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer"
                   placeholder="Please specify your description here..."
                   required
                 ></textarea>
